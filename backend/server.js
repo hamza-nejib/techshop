@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 
-//app.use('/api/products', productRoutes);
+app.use('/api/products', productRoutes);
 
 const __dirname = path.resolve();
 
